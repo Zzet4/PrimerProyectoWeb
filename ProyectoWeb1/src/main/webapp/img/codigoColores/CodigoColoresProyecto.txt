@@ -1,0 +1,25 @@
+CSS
+
+/* CSS - Cascading Style Sheet */
+/* Palette color codes */
+/* Palette URL: http://paletton.com/#uid=15B0u0kmVjUccuBhHp7sbeC-19r */
+
+/* Feel free to copy&paste color codes to your application */
+
+
+/* As hex codes */
+
+.color-primary-0 { color: #9C2C32 }	/* Main Primary color */
+.color-primary-1 { color: #F09499 }
+.color-primary-2 { color: #C5585D }
+.color-primary-3 { color: #720E13 }
+.color-primary-4 { color: #4A0004 }
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba(156, 44, 50,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(240,148,153,1) }
+.rgba-primary-2 { color: rgba(197, 88, 93,1) }
+.rgba-primary-3 { color: rgba(114, 14, 19,1) }
+.rgba-primary-4 { color: rgba( 74,  0,  4,1) }
+

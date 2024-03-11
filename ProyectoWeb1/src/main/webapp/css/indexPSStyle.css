@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url(../img/ps/FondoMandoPsOscuro.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}

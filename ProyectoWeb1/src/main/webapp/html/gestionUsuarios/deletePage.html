@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Inicia Sesion</title>
+<link rel="stylesheet" href="../../css/gestionUsuarios/loginPageStyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../../js/gestionUsuarios/loginPageJQuery.js"></script>
+
+</head>
+<body>
+	<p><a href="../../index.jsp"><img src="../../img/logos/homeButton.png" width="60px" height="80px"/></a></p>
+    <!-- Body -->
+  	<div class="container">
+     <form method="post" action="/ProyectoWeb1/MainServlet?accion=delete"
+    	 autocomplete="on" id="formSubmitted">
+		 
+	 	<!--Nombre Usuario-->
+		<div class="box">
+      		<label for="Nombre_Usuario" class="fl fontLabel"> Nombre Usuario </label>
+			<div class="fl iconBox"><i class="fa fa-user" aria-hidden="true"></i></div>
+			<div class="fr">
+			<input type="text" name="nombreUsuario"
+          				placeholder="Nombre de Usuario" 
+          				class="textBox" autofocus="on"
+          				required>
+		</div>
+			<div class="clr"></div>
+		</div>
+		<!--Nombre Usuario-->
+
+    	<!---Contraseña-->
+    		<div class="box">
+          <label for="contraseña" class="fl fontLabel"> Contraseña </label>
+    			<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="Contrasenia" name="contrasenia" 
+    					placeholder="Contraseña" 
+    					class="textBox" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		<!---Contraseña-->
+			<br>
+    		<!---Submit -->
+    		<div class="box" style="background: rgb(35, 0, 70)">
+    			<input id="enviar" type="Submit" name="submit" class="submit" value="BORRAR USUARIO">
+    		</div>
+    		<br>
+    		<!--Submit -->
+    		
+    		<!-- campoOculto/accion -->
+    		<input type="accion" value="delete"  hidden="true" disabled>
+    		<!-- campoOculto/accion -->
+      </form>
+  </div>
+</body>
+</html>

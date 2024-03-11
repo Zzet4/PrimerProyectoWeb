@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+body{
+	background-image: url(../img/Fondos/FondoROG2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+header{
+	background-color: white;
+	margin-bottom: 80px;
+}
+
+
+/*#linkIndexPS:hover, #linkIndexXbox:hover{*/
+/*		color: rgb(37, 184, 204);*/
+/*		background-color: #620a78;*/
+/*		border-radius: 10%;*/
+/*}*/
+
+.menu{
+	/*background-image: url("../img/Fondos/FondoBlancoLineas.avif");*/
+  	margin-left: 2%;
+}
+
+.cabecerasMenu{
+	list-style-type: none;
+}
+
+/*.listasAnidadas{*/
+/*	list-style-image: url("../img/logos/logoLista2.jpg");*/
+/*	width: 10px;*/
+/*	height: 10px;*/
+/*}*/
+
+.botoneraLoginRegister{
+	
+	
+	position: absolute;
+	top:10%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+}
+
+.BotonRegistro{ 
+
+	
+}
+.BotonInicioSesion{
+}
+
+footer{
+	background-color: white;
+}
+
+/*nav{*/
+/*	background-color: green;*/
+/*	font-size: medium;*/
+/*}*/
+
+
+/*.botoneraMGRusers{
+	
+
+/*	position: absolute;*/
+/*	top:50%;*/
+/*	left: 50%;*/
+/*	transform: translate(-50%, -50%);*/
+/*	margin: auto;}*/
+
+
+.BotonAddUser{
+	
+}
+.BotonEditUser{
+	
+}
+.BotonDeleteUser{
+	
+}

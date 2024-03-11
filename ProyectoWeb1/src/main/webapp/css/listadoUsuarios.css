@@ -1,0 +1,15 @@
+@charset "ISO-8859-1";
+
+
+	body{
+		background-image: url("../img/Fondos/FondoAtraco.png" );
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	h1{
+		color: darkorange;
+	}
+	table{
+		border-radius: 5%;
+	}
